@@ -1,0 +1,227 @@
+.player-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.message-sm {
+  display: none;
+}
+.option-text {
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 14px;
+  color: #2222;
+}
+.ul-container-player {
+  display: none;
+}
+
+@media screen and(min-width:768px) {
+  .input-container {
+    display: none;
+  }
+}
+.input {
+  display: none;
+}
+.sbmit-btn {
+  display: none;
+}
+
+.sm-qestion {
+  display: none;
+}
+.option-text {
+  display: none;
+}
+.submit-btn-sm {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .message-sm {
+    display: flex;
+    font-size: 14px;
+    font-family: 'roboto';
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    margin-left: 20px;
+  }
+  .submit-btn-sm {
+    display: flex;
+    background-color: dodgerblue;
+    height: 25px;
+    width: 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 8px;
+    margin: 10px;
+    margin-left: 20px;
+    align-items: center;
+  }
+  .radio {
+    height: 14px;
+    width: 14px;
+    margin-right: 10px;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    box-shadow: 4px 4px 4px 4px #bfbfbf;
+    border: 1px solid #bfbfbf;
+    border-radius: 8px;
+  }
+  .input {
+    display: flex;
+    margin-top: 20px;
+    height: 25px;
+    width: 240px;
+    margin: 10px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #000000;
+    font-size: 12px;
+    font-family: 'roboto';
+    border-radius: 4px;
+  }
+  .sbmit-btn {
+    display: flex;
+    background-color: dodgerblue;
+    height: 25px;
+    width: 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 8px;
+    margin: 10px;
+    margin-left: 20px;
+    align-items: center;
+  }
+  .sm-qestion {
+    display: flex;
+    font-family: 'roboto';
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+  }
+  .ul-container-player {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+  }
+  .option-text {
+    display: flex;
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+  }
+}
+
+@media screen and(min-width:768px) {
+  .message-sm {
+    display: none;
+  }
+  .input {
+    display: none;
+  }
+  .player-container {
+    display: none;
+  }
+  .option-text {
+    display: none;
+  }
+  .ul-container-player {
+    display: none;
+  }
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.ul-column-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+}
+.result-heading {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #000000;
+  text-decoration: underline;
+}
+@media screen and(min-width:768px) {
+  .result-heading {
+    font-size: 16px;
+  }
+}
+
+.results-ul-container {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+}
+.name-text {
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+  padding: 10px;
+  border: 1px solid #bfbfbf;
+  min-width: 100px;
+  margin: 0;
+}
+
+@media screen and(min-width:768px) {
+  .name-text {
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+  }
+}
+.result-text {
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  padding: 10px;
+  border: 1px solid #bfbfbf;
+  min-width: 100px;
+  margin: 0;
+}
+
+@media screen and(min-width:768px) {
+  .result-text {
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+  }
+}
